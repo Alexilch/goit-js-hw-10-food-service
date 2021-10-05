@@ -13,7 +13,6 @@ if (!switchToggle.checked) {
 else {
 page.classList.remove(theme.LIGHT)
   };
-
   localStorage.setItem('theme', page.className);
 }
 
